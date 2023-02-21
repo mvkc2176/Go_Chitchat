@@ -11,3 +11,12 @@ Some differences include:
 * There are test files in this code
 * All structs are fully fleshed out (in the book chapter, they are only implied)
 * Some of the functions are placed as methods for the struct types instead of being a part of the package
+
+
+## How to run
+
+go mod init github.com/mvkc2176/Go_Chitchat
+
+go mod tidy
+
+go build
